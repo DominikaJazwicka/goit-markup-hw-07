@@ -597,6 +597,8 @@ p {
   font-size: 14px;
   line-height: 1.25;
   margin-right: 12px;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition-duration: 0.5s;
 }
 .footer-input__newsletter-icon {
   padding-left: 24px;
@@ -616,6 +618,8 @@ p {
 .footer-input__newsletter:hover {
   border-color: #2196f3;
   color: #2196f3;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition-duration: 0.5s;
 }
 
 .footer__text {
@@ -745,6 +749,7 @@ p {
   background-color: #fff;
   padding-top: 94px;
   width: auto;
+  padding-bottom: 94px;
 }
 .we-do__heading {
   margin-bottom: 50px;
@@ -792,7 +797,8 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #F5F4FA;
-  padding-top: 94px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: auto;
 }
 .employee__heading {
@@ -877,7 +883,6 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #fff;
-  padding-top: 94px;
   width: auto;
   font-size: 36px;
 }

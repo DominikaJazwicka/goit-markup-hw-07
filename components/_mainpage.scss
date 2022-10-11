@@ -5,6 +5,7 @@
     background-color: getColor("white");
     padding-top: 94px;
     width: auto;
+    padding-bottom: 94px;
 
 &__heading {
     margin-bottom: 50px;
@@ -54,7 +55,8 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: getColor("lightgray");
-    padding-top: 94px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: auto;
 
 &__heading {
@@ -143,7 +145,6 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: getColor("white");
-    padding-top: 94px;
     width: auto;
     font-size: 36px;
 }
