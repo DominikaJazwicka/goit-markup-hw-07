@@ -107,6 +107,7 @@
     font-size: 14px;
     line-height: 1.25;
     margin-right: 12px;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
     
 
 &-icon {
@@ -128,6 +129,8 @@
 .footer-input__newsletter:hover {
     border-color: getColor("blue");
     color: getColor("blue");
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    transition-duration: 0.5s;
 }
 
 .footer__text {
