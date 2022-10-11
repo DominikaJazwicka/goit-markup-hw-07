@@ -1,4 +1,4 @@
-:root {
+/* /* :root {
     --white: #ffffff;
     --black: #000000;
     --blue: #2196f3;
@@ -27,11 +27,11 @@ ul {
     padding-bottom: 94px;
 }
 
-
 .container {
     width: 1200px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     flex-direction: column;
     background-color: var(--white);
@@ -56,9 +56,6 @@ p {
     font-size: 12px;
     color: #757575;
 }
-
-/* index style */
-
 
 .header__item {
     margin-right: 93px;
@@ -136,8 +133,6 @@ p {
     justify-content: center;   
     padding-bottom: 32px;
 }
-
-
 
 .header-contact__item {
     display: flex;
@@ -237,9 +232,7 @@ p {
 
 .service-heading__button-text:hover {
     color: var(--darkfooter)
-}
-
-
+} 
 
 .backdrop {
     z-index: 1;
@@ -394,7 +387,7 @@ p {
 .cookies__link {
     text-decoration: underline;
     color: var(--blue)
-}
+} 
 
 .index {
     margin-top: 94px;
@@ -461,7 +454,7 @@ p {
     overflow: hidden;
 }
 
-.static-overlay {
+/* .static-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -558,12 +551,27 @@ p {
 .employee-social-media__icon:hover {
     fill: var(--white)
 }
+ */
+
+/* 
+.customers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--white);
+    padding-top: 94px;
+    max-width: 1200px;
+    width: auto;
+}
 
 .customers__heading {
-    font-size: 36px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--white);
+    padding-top: 94px;
     width: auto;
-    margin-top: 94px;
+    font-size: 44px;
 }
 
 .customers__list {
@@ -576,6 +584,7 @@ p {
 }
 
 .customer__card {
+    margin: 5px;
     display: flex;
     flex-wrap: wrap;
     width: 170px;
@@ -601,9 +610,12 @@ p {
     fill: var(--blue);
 }
 
-.footer {
+ .footer {
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 50px;
-    height: 300px;
+    max-height: 300px;
+    height: auto;
     width: auto; 
     background-color: var(--darkfooter);
     justify-content: flex-start;
@@ -730,10 +742,10 @@ p {
     color: var(--white);
     align-items: baseline;
     border-radius: 5px;
-}
+} 
 
 
-/* Portfolio-styles */
+
 
 
 
@@ -856,17 +868,4 @@ p {
 .portfolio__text {
     margin-left: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
+*/
